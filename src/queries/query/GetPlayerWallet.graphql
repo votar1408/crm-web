@@ -1,0 +1,9 @@
+query GetPlayerWallet($playerId: String!) {
+    getPlayer(playerId: $playerId) {
+        playerId
+        wallet {
+            HC
+            MC
+        }
+    }
+}

@@ -1,0 +1,3 @@
+mutation DeletePlayerProfile($playerId: String!) {
+    deletePlayerProfile(playerId: $playerId)
+}

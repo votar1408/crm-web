@@ -1,0 +1,3 @@
+mutation UpdatePlayerWallet($playerId: String!, $walletParamsInput: WalletParamsInput!) {
+    updatePlayerWallet(playerId: $playerId, walletParamsInput: $walletParamsInput)
+}

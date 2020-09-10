@@ -1,0 +1,14 @@
+query GetPlayer($playerId: String!) {
+    getPlayer(playerId: $playerId) {
+        playerId
+        playerName
+        countryCode
+        region
+        installDate
+        lastLoginDate
+        OS
+        deviceId
+        currentDeviceModel
+        clientVersion
+    }
+}

@@ -1,0 +1,19 @@
+# dependencies
+/node_modules
+package-lock.json
+
+# production
+/build
+/.firebase
+.firebaserc
+firebase.json
+
+# develop
+/dist
+/coverage
+/.vscode
+
+npm-debug.log*
+
+/.idea
+.env
